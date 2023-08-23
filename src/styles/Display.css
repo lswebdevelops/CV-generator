@@ -1,0 +1,10 @@
+.display-container {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    width: 100%;
+    gap: 43px;
+    ;
+}
