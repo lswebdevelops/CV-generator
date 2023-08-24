@@ -13,13 +13,13 @@ const DisplayExperience = () => {
     <section className="experience-display">
       <h1>Profissional Experience</h1>
       <div className="div-experience-container">
-        <div className="div-experience">
+        <div className="div-experience1">
           <p className="experience-date">
             {startDate} - {endDate}
           </p>
           <p>{address}</p>
         </div>
-        <div className="div-experience">
+        <div className="div-experience2">
           <p className="experience-company">{company}</p>
           <p>{position}</p>
           <p>{description}</p>

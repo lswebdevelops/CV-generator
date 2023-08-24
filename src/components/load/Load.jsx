@@ -1,5 +1,4 @@
 import LoadNavbar from "./LoadNavbar";
-import "../../styles/Load.css";
 import LoadPersonalDetails from "./LoadPersonalDetails";
 import LoadEducation from "./LoadEducation";
 import LoadExperience from "./LoadExperience";

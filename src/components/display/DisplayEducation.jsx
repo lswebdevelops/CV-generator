@@ -10,13 +10,13 @@ const DisplayEducation = () => {
     <section className="education-display">
       <h1>Education</h1>
       <div className="div-education-container">
-      <div className="div-education">
+      <div className="div-education1">
         <p className="education-date">
           {startDate} - {endDate}
         </p>
         <p>{address}</p>
       </div>
-      <div className="div-education">        
+      <div className="div-education2">        
         <p className="education-university">{university}</p>
         <p>{course}</p>
       </div>

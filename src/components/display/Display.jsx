@@ -1,4 +1,4 @@
-import "../../styles/Display.css";
+
 import DisplayHeader from "./DisplayHeader";
 import DisplayEducation from "./DisplayEducation";
 import DisplayExperience from "./DisplayExperience";

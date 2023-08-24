@@ -1,4 +1,4 @@
-import "../../styles/Load.css";
+
 
 import { GoPerson } from "react-icons/go";
 const LoadPersonalDetails = () => {

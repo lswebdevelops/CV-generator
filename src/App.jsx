@@ -7,15 +7,12 @@ function App() {
   return (
     <>
       <h1 className="title">CV GENERATOR</h1>
-    <div className="container">
-      <div>
+      <div className="container">
         <Load />
-      </div>
-      <div>
+       
         <Display />
       </div>
-    </div>
-    <Footer />
+      <Footer />
     </>
   );
 }
