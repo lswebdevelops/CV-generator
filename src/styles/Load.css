@@ -16,6 +16,8 @@ h2 {
   font-size: 1.2rem;
 }
 .load-container {
+  min-width: 500px;
+
   background-color: var(--main-color3);
   display: flex;
   flex-direction: column;
@@ -139,4 +141,14 @@ h2 {
   cursor: pointer;
   background-color: var(--main-color7);
   color: white;
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .load-container {
+    min-width: 450px;
+    gap:  30px;
+  }
 }

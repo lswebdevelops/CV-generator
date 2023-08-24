@@ -1,8 +1,12 @@
+import { AiOutlineExperiment } from "react-icons/ai";
+
+
+
 const LoadExperience = () => {
   return (
     <>
     <section className="load-experience">
-      <h1>Experience</h1>
+      <h1><AiOutlineExperiment /> Experience</h1>
       <input  className="company-name"  type="name"  id="company-name" placeholder="Company Name" />
       <label htmlFor="company-start-year">Start:</label>
       <input type="date" id="company-start-year" />

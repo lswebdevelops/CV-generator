@@ -1,8 +1,13 @@
+
+
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+
+
 const LoadEducation = ()=> {
     return(
       <div>
           <section className="load-education" >
-            <h1>Education</h1>
+            <h1><AiOutlineFundProjectionScreen /> Education</h1>
             <input  className="university-input" type="text" id="university" placeholder="University Name" />
             <input  type="text" id="Course Name"  placeholder="course"/>
             <label htmlFor="start-year">Start:</label>

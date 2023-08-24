@@ -22,20 +22,20 @@
   flex-direction: row;
   justify-content: space-around;
   gap: 28px;
-  height: 100vh;
   padding: 4% 8% 4% 8%;
   background-color: var(--main-color2);
-  /* color: var(--main-color4); */
+ 
 }
 
 /* END SINGLE CATEGORY PAGE */
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  
+ 
+ 
 }
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  
+ 
 }
 
 /********** Small devices only **********/

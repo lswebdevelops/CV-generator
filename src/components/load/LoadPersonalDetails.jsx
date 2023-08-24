@@ -1,9 +1,10 @@
 import "../../styles/Load.css";
 
+import { GoPerson } from "react-icons/go";
 const LoadPersonalDetails = () => {
   return (
     <section className="load-personalDetails">
-      <h1>Personal Details</h1>
+      <h1><GoPerson /> Personal Details</h1>
       <h2>Full Name</h2>
       <input type="name" id="name" placeholder="Type your name" />
       <label htmlFor="name"></label>
