@@ -47,6 +47,7 @@ h2 {
 .nav-load-navbar {
   display: flex;
   justify-content: space-around;
+  background-color: var(--main-color3);
 }
 .nav-load-navbar button {
   width: 48%;
@@ -85,6 +86,8 @@ h2 {
 }
 
 .load-education {
+  display: flex;
+  flex-direction: column;
   padding: 8px;
   padding-left: 2%;
   background-color: var(--main-color2);
@@ -95,7 +98,7 @@ h2 {
 .load-education input {
   color: #333;
   height: 1.2rem;
-  width: 96%;
+  /* width: 96%; */
   text-align: left;
   padding: 2px;
   border: none;
@@ -124,7 +127,7 @@ h2 {
 .load-experience input {
   color: #333;
   height: 1.2rem;
-  width: 96%;
+  /* width: 96%; */
   text-align: left;
   padding: 2px;
   border: none;
@@ -136,11 +139,21 @@ h2 {
 
 /* education */
 
-.plus-education-container {
+.plus-education-container
+ {
   display: flex;
   justify-content: center;
   /* margin-top: 13px; */
   margin-top: 25px;
+  padding-top: 15px;
+  margin-bottom: -28px;
+  background-color: var(--main-color3);
+}
+.plus-person-container {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 13px; */
+  margin-top: -35px;
   padding-top: 15px;
   margin-bottom: -28px;
   background-color: var(--main-color3);
@@ -154,6 +167,7 @@ h2 {
 }
 
 .button-plus-education,
+.button-add-person,
 .button-plus-experience {
   width: 42%;
   min-height: 45px;
@@ -164,6 +178,7 @@ h2 {
   background-color: var(--main-color2);
 }
 .button-plus-education:hover,
+.button-add-person:hover,
 .button-plus-experience:hover {
   cursor: pointer;
   background-color: var(--main-color7);

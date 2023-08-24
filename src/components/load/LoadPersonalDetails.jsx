@@ -3,6 +3,7 @@
 import { GoPerson } from "react-icons/go";
 const LoadPersonalDetails = () => {
   return (
+   <>
     <section className="load-personalDetails">
       <h1><GoPerson /> Personal Details</h1>
       <h2>Full Name</h2>
@@ -18,6 +19,11 @@ const LoadPersonalDetails = () => {
       <input type="address" id="address" placeholder="Type your address" />
       <label htmlFor="address"></label>
     </section>
+    <div className="plus-person-container">
+    <button className="button-add-person">+ Person</button>
+    </div>
+    </>
+
   );
 };
 export default LoadPersonalDetails;
