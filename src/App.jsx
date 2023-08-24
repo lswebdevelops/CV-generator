@@ -5,8 +5,12 @@ import Load from "./components/load/Load";
 function App() {
   return (
     <div className="container">
-      <Load />   
-      <Display />
+      <div>
+        <Load />
+      </div>
+      <div>
+        <Display />
+      </div>
     </div>
   );
 }

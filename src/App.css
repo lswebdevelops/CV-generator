@@ -1,3 +1,17 @@
+:root {
+  --main-color1: #F8F4EB;
+  --main-color2: #EFE6E6;
+  --main-color3: #DFCCCC;
+  --main-color4: #5E0000;
+  --main-color5: #FFE1E0;
+  --main-color6: #FFA6A3;
+  --main-color7: #FF6B66;
+  --main-color8: #FFCD5B;
+  --main-color9: #FFC132;
+}
+
+
+
 * {
   padding: 0;
   margin: 0;
@@ -5,43 +19,46 @@
 
 .container {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   gap: 28px;
   height: 100vh;
-  padding: 0 8% 0 8%;
-
+  padding: 4% 8% 4% 8%;
+  background-color: var(--main-color2);
+  /* color: var(--main-color4); */
 }
 
-/* load */
-.load-navbar {
-  width: 100%;
-  display: flex;
-  padding-top: 12px;
-  justify-content: center;
+/* END SINGLE CATEGORY PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
 }
-.nav-load-navbar {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.nav-load-navbar button {
-  width: 150px;
-  height: 40px;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  border: none;
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
 }
 
-/* display */
-.display-navbar {
-  width: 100%;
-  display: flex;
-  padding-top: 12px;
-  justify-content: center;
-}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    display: flex;
+    flex-direction: column;
 
-.nav-display-navbar {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
+  }
+ 
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+
+  }
+ 
+}
+  
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+ 
+  
 }
