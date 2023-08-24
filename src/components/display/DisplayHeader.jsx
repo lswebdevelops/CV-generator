@@ -5,8 +5,8 @@ import { HiMail } from "react-icons/hi";
 
 useState;
 const DisplayHeader = () => {
-  const [name, setName] = useState("Myown Name Meyers");
-  const [email, setEmail] = useState("my_name_meyears@email.com");
+  const [name, setName] = useState("Mario Meyers");
+  const [email, setEmail] = useState("mario_meyears@email.com");
   const [phone, setPhone] = useState("+13-2342-234234");
   const [address, setAddress] = useState("Santa Catarina, Brazil");
 

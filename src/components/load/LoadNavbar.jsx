@@ -1,4 +1,5 @@
-import { HiTrash , HiCloudDownload } from "react-icons/hi";
+import { HiTrash } from "react-icons/hi";
+import { AiOutlineSave } from "react-icons/ai";
 
 const LoadNavbar = () => {
 
@@ -6,7 +7,7 @@ const LoadNavbar = () => {
         <div  className="load-navbar"> 
            <nav className="nav-load-navbar">
             <button><HiTrash /> Clear Resume</button>
-            <button><HiCloudDownload /> Load Example</button>
+            <button><AiOutlineSave /> Save Resume</button>
            </nav>
         </div>
     )

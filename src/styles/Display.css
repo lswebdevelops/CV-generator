@@ -21,27 +21,58 @@
   padding: 8px 4px 0 4px;
   color: var(--main-color4);
 }
-.header-display{
+.header-display,
+.experience-display,
+.education-display {
   background-color: var(--main-color2);
   border: none;
   border-radius: 8px;
   padding: 8px;
   margin-bottom: 34px;
-  ;
 }
-.h1-header{
+.h1-header {
   font-size: 2rem;
 }
 .div-header {
-
-  gap:12px;
-
+  gap: 12px;
 }
 .header-para {
   font-size: 1.2rem;
   width: 100%;
 }
+.header-display h1,
+.experience-display h1,
+.education-display h1 {
+  background-color: var(--main-color1);
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  padding: 4px;
+}
+.experience-company,
+.education-university {
+  /* margin: 6px 0 6px 0; */
+  font-weight: 600;
+}
+.div-education-container,.div-experience-container {
+  display: flex;
+  font-size: 1.2rem;
+  margin: 6px 0 6px 0;
 
+  /* flex-direction: row; */
+  align-items: baseline;
+  gap: 34px;
+  justify-content: left;
+
+}
+.div-education,.div-experience {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.experience-date, .education-date {
+  width: 250px;
+}
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .display-container {
