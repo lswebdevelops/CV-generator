@@ -153,7 +153,7 @@ h2 {
   display: flex;
   justify-content: center;
   /* margin-top: 13px; */
-  margin-top: -35px;
+  margin-top: 35px;
   padding-top: 15px;
   margin-bottom: -28px;
   background-color: var(--main-color3);
